@@ -1,4 +1,4 @@
-package sample;
+package Due_Battle;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -13,7 +13,7 @@ public class Main extends Application {
 
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Due Battle");
-        Scene window = new Scene(root, 400, 300);
+        Scene window = new Scene(root, 1200, 900);
         window.getRoot().requestFocus();
         primaryStage.setScene(window);
         primaryStage.show();

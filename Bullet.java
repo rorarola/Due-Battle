@@ -1,13 +1,16 @@
-package sample;
+package Due_Battle;
 
 import javafx.scene.Node;
 import javafx.scene.layout.Pane;
 import javafx.scene.shape.Rectangle;
+import javafx.animation.*;
 
 public class Bullet {
     private Rectangle obj;
     private double x, y;
     private Boolean type;
+    private KeyFrame kf;
+
     public Bullet(Rectangle _obj, Rectangle player1, Rectangle player2, Boolean isPlayer1) {
         this.obj = new Rectangle(_obj.getWidth(), _obj.getHeight());
         this.obj.setFill(_obj.getFill());
