@@ -17,7 +17,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
 
         currentStage = primaryStage;
-        Parent root = FXMLLoader.load(getClass().getResource("battleScene.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Menu.fxml"));
         currentStage.setTitle("Due Battle-Settings");
         currentScene = new Scene(root, 1200, 800);
         currentScene.getRoot().requestFocus();

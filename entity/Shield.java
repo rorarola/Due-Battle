@@ -25,6 +25,11 @@ public class Shield extends Circle {
         setRadius(radius);
     }
 
+    public void boost() {
+        radius += 3;
+    }
+
+
     public void updatePosition(double X, double Y) {
         setCenterX(X);
         setCenterY(Y);
