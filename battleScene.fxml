@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import Due_Battle.GamePane?>
+
+<?import javafx.scene.shape.Rectangle?>
+<GamePane fx:id="field" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#handleKeyPressed" onKeyReleased="#handleKeyReleased" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Due_Battle.BattleSceneController">
+<children>
+    <Rectangle fx:id="player1HPF" arcHeight="5.0" arcWidth="5.0" fill="#FFFFFF" height="20.0" layoutX="10.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+    <Rectangle fx:id="player1HP" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" layoutX="10.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+
+    <Rectangle fx:id="player2HPF" arcHeight="5.0" arcWidth="5.0" fill="#FFFFFF" height="20.0" layoutX="800.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+    <Rectangle fx:id="player2HP" arcHeight="5.0" arcWidth="5.0" fill="ff1f1f" height="20.0" layoutX="800.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+</children>
+</GamePane>
